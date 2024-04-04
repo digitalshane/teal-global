@@ -1,0 +1,103 @@
+
+  * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ .cms-button a:hover {
+    background: transparent !important;
+    color: #000 !important;
+}
+.w-input:focus, .w-select:focus {
+	border-color:#000000 !important;
+	outline: 0;
+}
+.w-button:active {
+	outline: none !important;
+	border: none !important;
+}
+
+.w-button:focus {outline:0 !important;}
+
+
+/**********FAQ**************/
+.gm-faq .faq-list .faq::before {
+    content: "";
+    width: 0;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+.gm-faq .faq-list .faq.w--open::before {
+    transform: rotate(90deg);
+    border-left: 10px solid #B58D47;
+}
+.gm-faq .faq-list .faq.w--open {
+    border: 0;
+ }
+/**********FAQ End**************/ 
+ 
+  
+.career-path-strip::after {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 7px solid #fff;
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.category-title {
+    width: 263px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+}
+.strip::after {
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 7px solid #fff;
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.strip.background-959595::after {
+    border-bottom: 7px solid #959595;
+}
+  .testimonial_component .testimonial_slide-nav .w-slider-dot{width:15px; height:15px; background-color:rgba(255,255,255,0.4);}
+  .testimonial_component .testimonial_slide-nav .w-slider-dot.w-active{background-color:rgba(255,255,255,1);}
+  .sidebar ul{padding-left:0;}
+  .sidebar ul li{list-style:none; line-height:130%; margin-bottom: 8px; border-bottom: 1px solid #00000020; padding-bottom: 8px;}
+  .sidebar ul li a{}
+
+
+  /*.w-container {max-width: 100%;}*/
+  @media (max-width:1200px) {
+    h1 {
+      font-size:3em;
+    }
+  }
+@media screen and (max-width:991px) {
+.singel-page-body {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    }
+    .overview {
+        padding-top: 50px;
+    }	
+}
